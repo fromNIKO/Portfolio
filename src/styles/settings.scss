@@ -22,10 +22,10 @@ $font1: font-1, sans-serif;
 
 html {
     scroll-behavior: smooth;
+    overflow-x: auto;
 }
 
 body {
     background-color: #ffffff;
     font-family: font-1;
-    overflow-x: hidden;
 }

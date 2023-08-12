@@ -108,7 +108,7 @@ const Header = () => {
      if (isMobile) {
       let navbar = document.querySelector('.container-hamburger');
       let bgColor = scrollY >= 100 ? '#333': 'transparent';
-      const yPos = scrollY > 0 ? -100 : 0;
+      const yPos = scrollY > 0 ? -110 : 0;
       
       
       gsap.to(navbar, {

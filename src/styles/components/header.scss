@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-color: white;
   display: flex;
@@ -122,11 +122,9 @@ header {
 
     .container-hamburger {
       height: 90px;
-      width: 100%;
+      width: 100vw;
       position: fixed;
       z-index: 600;
-
-    
 
     .hamburger-menu {
         display: flex;
