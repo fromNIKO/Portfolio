@@ -4,6 +4,7 @@ import LetterAnimation from "./LetterAnimation";
 import { gsap } from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import logoHeadMin from '../assets/img/logo-head.png'
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
@@ -183,7 +184,7 @@ const Header = () => {
           <a href="#contact" onClick={closeMenu}><li>Contact</li></a>
         </ul>
       </div>
-      <a href=""><img src="../assets/img/logo-head.png" alt="logo du site" className="logo-header"/></a>
+      <a href=""><img src={logoHeadMin} alt="logo du site" className="logo-header"/></a>
 
       <div className="nav-flex">
 
