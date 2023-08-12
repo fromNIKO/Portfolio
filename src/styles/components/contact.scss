@@ -1,0 +1,76 @@
+.container-contact {
+    margin-bottom: 4em;
+    text-align: center;
+    text-transform: uppercase;
+
+    @media screen and (min-width: 787px) {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    @media screen and (min-width: 992px) {
+        width: 80%;
+    }
+
+    & h2 {
+        margin: 1em 0;
+    }
+
+    & .hr-contact {
+        width: 100px;
+    margin: 1em auto 1em;
+    height: .5vh;
+    background: var(--hr);
+    border-radius: 20px;
+    }
+
+    @media screen and (min-width: 787px) {
+        .end-contact {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 4em;
+        }
+    }
+
+    & .left-part, .middle-part, .right-part {
+        margin: 1.5em 0 1em;
+
+
+        & h4 {
+            font-size: 20px;
+            margin-top: 1em;
+        }
+
+        & i {
+            border-radius: 30px;
+            padding: .5em;
+            margin: 1em 0;
+            border: 1px solid var(--black);
+            transition: .5s linear;
+            animation: contactAnim 3s infinite;
+            font-size: 30px;
+            color: var(--hr);
+
+            @keyframes contactAnim {
+
+                0% {
+                    transform: translateY(0px);
+                }
+
+                50% {
+                    transform: translateY(20px);
+                }
+
+                100% {
+                    transform: translateY(0px);
+                }
+            }
+
+            &:hover {
+                background: var(--hr);
+                color: white;
+                border: 1px solid var(--white);
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+:root {
+
+    @font-face {
+        font-family: font-1;
+        src: url(../assets/font/Poppins-Regular.woff);
+    }
+    
+$font1: font-1, sans-serif;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+--white: #ffffff;
+--black: #333;
+--grey: #8F8F8F;
+--hr: #E74C3C;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: font-1;
+    overflow-x: hidden;
+}
