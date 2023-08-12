@@ -136,13 +136,13 @@ const Header = () => {
 
     return (
       <>
+
+           <header>
               <div className="container-welcome" ref={titleRef} >
               <video ref={videoRef} autoPlay muted className="img-logo">
                 <source src={vid} type="video/mp4" />
               </video>
             </div>  
-
-           <header>
 
 
                 <div className="first-nav" id="up">
