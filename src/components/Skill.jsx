@@ -32,11 +32,13 @@ const Skill = () => {
             elem,
             {
                 opacity: 0,
-                x: 200,
+                y: 200,
+               
             },
             {
                 opacity: 1,
-                x: 0,
+                display: "block",
+                y: 0,
                 duration: duration || 1,
                 scrollTrigger: {
                     trigger: elem,
