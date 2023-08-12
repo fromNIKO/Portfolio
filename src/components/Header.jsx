@@ -130,24 +130,6 @@ const Header = () => {
     }
   }, [scrollY]);
 
-  const [activeSection, setActiveSection] = useState('');
-
-  const handleScrollLi = () => {
-    const sections = document.querySelectorAll('section');
-    sections.forEach(section => {
-      const rect = section.getBoundingClientRect();
-      if (rect.top <= 100 && rect.bottom >= 100) {
-        setActiveSection(section.id);
-      }
-    });
-  };
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScrollLi);
-    return () => {
-      window.removeEventListener('scroll', handleScrollLi);
-    };
-  }, []);
 
 
     return (
@@ -201,7 +183,7 @@ const Header = () => {
           <a href="#contact" onClick={closeMenu}><li>Contact</li></a>
         </ul>
       </div>
-      <a href=""><img src="../../src/assets/img/logo-head.png" alt="logo du site" className="logo-header"/></a>
+      <a href=""><img src="/src/assets/img/logo-head.png" alt="logo du site" className="logo-header"/></a>
 
       <div className="nav-flex">
 
