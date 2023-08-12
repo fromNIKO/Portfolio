@@ -183,7 +183,7 @@ const Header = () => {
           <a href="#contact" onClick={closeMenu}><li>Contact</li></a>
         </ul>
       </div>
-      <a href=""><img src="/src/assets/img/logo-head.png" alt="logo du site" className="logo-header"/></a>
+      <a href=""><img src="../assets/img/logo-head.png" alt="logo du site" className="logo-header"/></a>
 
       <div className="nav-flex">
 
