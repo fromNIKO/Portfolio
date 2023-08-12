@@ -1,6 +1,13 @@
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import  { useEffect } from 'react';
+import imgProjectJapan from '../assets/img/img-project-japan.png';
+import imgProjectGamingCampus from '../assets/img/img-gaming-campus.png';
+import imgProjectRun from '../assets/img/img-run-project.png';
+import imgProjectMontain from '../assets/img/img-montain-project.png';
+import imgProjectResto from '../assets/img/img-resto-project.png';
+import imgProjectBugatti from '../assets/img/img-bugatti-project.png';
+import imgProjectCountryReact from '../assets/img/img-react-country-app.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -48,7 +55,7 @@ const Project = () => {
                     <a href="https://first-site-japan.netlify.app/" target='_blank' rel='noreferrer'>
                         <div className="box" id='project1'>  
                         <figure>
-                            <img src="../../src/assets/img/img-project-japan.png" alt="" />
+                            <img src={imgProjectJapan} alt="" />
                            <i className="fa-solid fa-plus"></i>
                             </figure>
                             <div className="sous-box">
@@ -63,7 +70,7 @@ const Project = () => {
                         <a href="https://gaming-campus-training.netlify.app/" target='_blank' rel='noreferrer'>
                             <div className="box" id='project2'>
                             <figure>
-                            <img src="../../src/assets/img/img-gaming-campus.png" alt="image d'une réalisation" />
+                            <img src={imgProjectGamingCampus} alt="image d'une réalisation" />
                             <i className="fa-solid fa-plus"></i>
                             </figure>
                             <div className="sous-box">
@@ -77,7 +84,7 @@ const Project = () => {
                         <a href="https://run-exercice.netlify.app//" target='_blank' rel='noreferrer'>
                             <div className="box" id='project3'>
                             <figure>
-                            <img src="../../src/assets/img/img-run-project.png" alt="image d'une réalisation" />
+                            <img src={imgProjectRun} alt="image d'une réalisation" />
                             <i className="fa-solid fa-plus"></i>
                             </figure>
                             <div className="sous-box">
@@ -91,7 +98,7 @@ const Project = () => {
                         <a href="https://site-montagne-niko.netlify.app/" target='_blank' rel='noreferrer'>
                             <div className="box" id='project4'>
                             <figure>
-                            <img src="../../src/assets/img/img-montain-project.png" alt="image d'une réalisation" />
+                            <img src={imgProjectMontain} alt="image d'une réalisation" />
                             <i className="fa-solid fa-plus"></i>
                             </figure>
                             <div className="sous-box">
@@ -105,7 +112,7 @@ const Project = () => {
                         <a href="https://the-resto-train-by-niko.netlify.app/" target='_blank' rel='noreferrer'>
                             <div className="box" id='project5'>
                             <figure>
-                            <img src="../../src/assets/img/img-resto-project.png" alt="image d'une réalisation" />
+                            <img src={imgProjectResto} alt="image d'une réalisation" />
                             <i className="fa-solid fa-plus"></i>
                             </figure>
                             <div className="sous-box">
@@ -119,7 +126,7 @@ const Project = () => {
                         <a href="https://bugatti-training-non-office.netlify.app/" target='_blank' rel='noreferrer'>
                             <div className="box" id='project6'>
                             <figure>
-                            <img src="../../src/assets/img/img-bugatti-project.png" alt="image d'une réalisation" />
+                            <img src={imgProjectBugatti} alt="image d'une réalisation" />
                             <i className="fa-solid fa-plus"></i>
                             </figure>
                             <div className="sous-box">
@@ -133,7 +140,7 @@ const Project = () => {
                         <a href="https://first-training-react.netlify.app/" target='_blank' rel='noreferrer'>
                             <div className="box" id='project7'>
                             <figure>
-                            <img src="../../src/assets/img/img-react-country-app.png" alt="image d'une réalisation" />
+                            <img src={imgProjectCountryReact} alt="image d'une réalisation" />
                             <i className="fa-solid fa-plus"></i>
                             </figure>
                             <div className="sous-box">

@@ -4,7 +4,8 @@ import LetterAnimation from "./LetterAnimation";
 import { gsap } from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
-import logoHeadMin from '../assets/img/logo-head.png'
+import logoHead from '../assets/img/logo-head.png'
+import vid from '../assets/img/vid-logo.mp4'
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
@@ -137,7 +138,7 @@ const Header = () => {
       <>
               <div className="container-welcome" ref={titleRef} >
               <video ref={videoRef} autoPlay muted className="img-logo">
-                <source src="../../src/assets/img/vid-logo.mp4" type="video/mp4" />
+                <source src={vid} type="video/mp4" />
               </video>
             </div>  
 
@@ -184,12 +185,12 @@ const Header = () => {
           <a href="#contact" onClick={closeMenu}><li>Contact</li></a>
         </ul>
       </div>
-      <a href=""><img src={logoHeadMin} alt="logo du site" className="logo-header"/></a>
+      <a href=""><img src={logoHead} alt="logo du site" className="logo-header"/></a>
 
       <div className="nav-flex">
 
 <div>
-      <a href="" className="a-header-logo-max"><img src="../../src/assets/img/logo-head.png" alt="logo du site" /></a>
+      <a href="" className="a-header-logo-max"><img src={logoHead} alt="logo du site" /></a>
       </div>
       <ul className="ul-flex">
 

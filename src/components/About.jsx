@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import imgAbout from '../assets/img/img-about.jpg'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -63,7 +64,7 @@ const About = () => {
                 
            
                  <div className="img-middle" id='aboutMiddle'>
-                    <img src="../../src/assets/img/img-about.jpg" alt="image d'un pc, d'une tablette et d'un téléphone portable" />
+                    <img src={imgAbout} alt="image d'un pc, d'une tablette et d'un téléphone portable" />
                 </div> 
                 
 
