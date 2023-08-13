@@ -35,7 +35,7 @@ const Project = () => {
 
 
     useEffect(() => {
-        slideInTop(".box")
+        slideInTop("#box")
     }, [])
 
     
@@ -52,7 +52,7 @@ const Project = () => {
 
                     <div className="galery">
 
-                    <a href="https://first-site-japan.netlify.app/" target='_blank' rel='noreferrer'>
+                    <a href="https://first-site-japan.netlify.app/" target='_blank' rel='noreferrer' id='box' >
                         <div className="box" id='project1'>  
                         <figure>
                             <img src={imgProjectJapan} alt="" />
@@ -67,7 +67,7 @@ const Project = () => {
                         </div>
                         </a>
 
-                        <a href="https://gaming-campus-training.netlify.app/" target='_blank' rel='noreferrer'>
+                        <a href="https://gaming-campus-training.netlify.app/" target='_blank' rel='noreferrer' id='box' >
                             <div className="box" id='project2'>
                             <figure>
                             <img src={imgProjectGamingCampus} alt="image d'une réalisation" />
@@ -81,7 +81,7 @@ const Project = () => {
                         </div>
                         </a>
 
-                        <a href="https://run-exercice.netlify.app//" target='_blank' rel='noreferrer'>
+                        <a href="https://run-exercice.netlify.app//" target='_blank' rel='noreferrer' id='box' >
                             <div className="box" id='project3'>
                             <figure>
                             <img src={imgProjectRun} alt="image d'une réalisation" />
@@ -95,7 +95,7 @@ const Project = () => {
                         </div>
                         </a>
 
-                        <a href="https://site-montagne-niko.netlify.app/" target='_blank' rel='noreferrer'>
+                        <a href="https://site-montagne-niko.netlify.app/" target='_blank' rel='noreferrer' id='box' >
                             <div className="box" id='project4'>
                             <figure>
                             <img src={imgProjectMontain} alt="image d'une réalisation" />
@@ -109,7 +109,7 @@ const Project = () => {
                         </div>
                         </a>
 
-                        <a href="https://the-resto-train-by-niko.netlify.app/" target='_blank' rel='noreferrer'>
+                        <a href="https://the-resto-train-by-niko.netlify.app/" target='_blank' rel='noreferrer' id='box' >
                             <div className="box" id='project5'>
                             <figure>
                             <img src={imgProjectResto} alt="image d'une réalisation" />
@@ -123,7 +123,7 @@ const Project = () => {
                         </div>
                         </a>
 
-                        <a href="https://bugatti-training-non-office.netlify.app/" target='_blank' rel='noreferrer'>
+                        <a href="https://bugatti-training-non-office.netlify.app/" target='_blank' rel='noreferrer' id='box' >
                             <div className="box" id='project6'>
                             <figure>
                             <img src={imgProjectBugatti} alt="image d'une réalisation" />
@@ -137,7 +137,7 @@ const Project = () => {
                         </div>
                         </a>
 
-                        <a href="https://first-training-react.netlify.app/" target='_blank' rel='noreferrer'>
+                        <a href="https://first-training-react.netlify.app/" target='_blank' rel='noreferrer' id='box' >
                             <div className="box" id='project7'>
                             <figure>
                             <img src={imgProjectCountryReact} alt="image d'une réalisation" />
