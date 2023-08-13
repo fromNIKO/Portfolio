@@ -70,7 +70,7 @@ const About = () => {
 
                 <div className="right-part" id='aboutRight'>
                     <h3>Motivé !</h3>
-                    <p>{"Autonome et enthousiaste, je suis convaincu que la meilleure manière d'apprendre est d'être immergé dans un environnement dynamique. Mon choix d'une alternance n'est pas seulement motivé par le désir d'acquérir des techniques, mais aussi par mon aspiration à me développer en tant que professionnel complet. en attendant cette alternance, je m'entraîne en tant qu'auto-didacte."}</p>
+                    <p>{"Autonome et enthousiaste, je suis convaincu que la meilleure manière d'apprendre est d'être immergé dans un environnement dynamique. Mon choix d'une alternance n'est pas seulement motivé par le désir d'acquérir des techniques, mais aussi par mon aspiration à me développer en tant que professionnel complet. En attendant cette alternance, je m'entraîne en tant qu'auto-didacte."}</p>
                     </div>
                     </div>
             </section>

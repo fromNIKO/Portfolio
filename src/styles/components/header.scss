@@ -11,10 +11,14 @@
   z-index: 9999;
   
   & .img-logo {
-    width: 35vw;
+    width: 40vw;
+
+    @media screen and (min-width: 792px) {
+      width: 25vw;
+    }
 
     @media screen and (min-width: 992px) {
-      width: 15vw;
+      width: 20vw;
     }
   }
 
@@ -23,13 +27,14 @@
 
 
 header {
-    opacity: 1;
+    
     background: linear-gradient(rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)), url(../../src/assets/img/img-header.jpeg) left/cover;
+    
     height: 100vh;
     width: 100%;
-    animation: imgHeaderAnim 10s ease-in-out infinite;
-    position: relative;
+    animation: imgHeaderAnim 20s ease infinite;
+    
 
     @media screen and (min-width: 1200px) {
       background: linear-gradient(rgba(0, 0, 0, 0.5),
@@ -41,9 +46,13 @@ header {
         0% {
             background-position: 0 0;
         }
-        100% {
-            background-position: 20% 0;
+        50% {
+            background-position: 20% 30%;
         }
+
+        100% {
+          background-position: 0 0;
+      }
     }
 
    

@@ -41,6 +41,10 @@
     & .container-btn {
         width: 100%;
 
+        & a {
+            text-decoration: none;
+        }
+
         & .btn-cv {
             display: block;
             font-weight: bold;
@@ -54,6 +58,8 @@
             color: var(--white);
             cursor: pointer;
             transition:  1s ease;
+
+            
 
             &:hover {
                 background: linear-gradient(to top, var(--hr), var(--hr), var(--hr), var(--hr), var(--hr), #000000);
