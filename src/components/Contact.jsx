@@ -11,7 +11,7 @@ const Contact = () => {
                     <div className="end-contact">
                         <div className="left-part">
                             <h4>Par mail</h4>
-                            <a href="mailto:nicolasdevfs@gmail.com"><i className="fa-solid fa-envelope"></i></a>
+                            <a href="mailto:nicodevfs@gmail.com"><i className="fa-solid fa-envelope"></i></a>
                         </div>
 
                         <div className="middle-part">

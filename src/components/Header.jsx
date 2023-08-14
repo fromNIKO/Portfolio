@@ -13,6 +13,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 const Header = () => {
 
 
+  // MENU HAMBURGER 
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -24,6 +25,9 @@ const Header = () => {
     setIsOpen(false);
   }
 
+
+  // APPARITION DE LA FLECHE
+  
   const arrowAppear = useRef(null);
   
   useEffect(() => {
@@ -45,6 +49,7 @@ const Header = () => {
     )
   }, [])
 
+  // ECRAN DE CHARGEMENT
 
   gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
      const titleRef = useRef();
@@ -89,6 +94,8 @@ const Header = () => {
       videoRef.current.play();
     }
   }, []);
+
+  // BARRE DE NAVIGATION, EFFET DE SCROLL EN DESCENDANT LA PAGE
 
   const [scrollY, setScrollY] = useState(0);
 
