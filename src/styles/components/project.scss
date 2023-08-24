@@ -89,7 +89,8 @@
             opacity: 0;
             transition: .5s ease-in-out;
         }
-
+        
+        
         & .sous-box {
             background: var(--black);
             color: var(--white);
@@ -97,7 +98,7 @@
             padding: .5em 0;
             border-bottom-right-radius: 20px;
             border-bottom-left-radius: 20px;
-
+            
             & p {
                 margin: 0 1em;
             }

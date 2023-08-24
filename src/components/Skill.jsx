@@ -81,7 +81,9 @@ const Skill = () => {
           <h2 id="skillTitle">Mes compétences</h2>
           <div className="skill-hr"></div>
           <div className="img-skill" id="skillImg" ref={imgRef}>
-            <img src={imgHtml} alt="logo du html" className="img" id="img1" />
+
+              
+          <img src={imgHtml} alt="logo du html" className="img" id="img1" />
             <img src={imgCSS} alt="logo du css" className="img" id="img2" />
             <img src={imgSass} alt="logo de sass" className="img" id="img3" />
             <img src={imgJs} alt="logo du js" className="img" id="img4" />
@@ -95,6 +97,7 @@ const Skill = () => {
             />
             <img src={imgSql} alt="logo de mysql" className="img" id="img8" />
             <img src={imgGit} alt="logo de Github" className="img" id="img9" />
+
           </div>
           <div className="container-btn" id="btnCv">
             <a href={imgCv} download>
