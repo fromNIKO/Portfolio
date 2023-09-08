@@ -248,6 +248,10 @@ header {
         @media screen and (min-width: 992px) {
           display: none;
         }
+
+        & .nav-active {
+          color: var(--hr);
+        }
       }
       
       .menu-container li:last-child {
@@ -292,6 +296,7 @@ header {
               margin-top: 2.5em;
           }
 
+
           & li {
             display: inline-block;
             margin-right: 20px;
@@ -305,6 +310,10 @@ header {
               text-transform: uppercase;
               font-weight: bold;
               padding: 0 .5em;
+
+              & .nav-active {
+                color: var(--hr);
+              }
 
               &::before {
                 content: '';

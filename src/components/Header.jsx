@@ -6,6 +6,8 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import logoHead from '../assets/img/logo-head.png'
 import vid from '../assets/img/vid-logo.mp4'
+import { NavLink } from "react-router-dom";
+import { Element } from "react-scroll";
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
@@ -185,7 +187,7 @@ const Header = () => {
       <div className={`menu-overlay ${isOpen ? 'open' : ''}`} onClick={toggleMenu} />
       <div className={`menu-container ${isOpen ? 'open' : ''}`}>
         <ul>
-          <a href="#up" onClick={closeMenu}><li>Accueil</li></a>
+           <a href="#up" onClick={closeMenu}><li>Accueil</li></a>
           <a href="#about" onClick={closeMenu}><li>À propos</li></a>
           <a href="#skill" onClick={closeMenu}><li>Compétences</li></a>
           <a href="#project" onClick={closeMenu}><li>Mes réalisations</li></a>

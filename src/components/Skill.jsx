@@ -1,4 +1,3 @@
-import React from "react";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -8,7 +7,6 @@ import imgSass from "../assets/img/img-sass.png";
 import imgJs from "../assets/img/img-js.png";
 import imgReact from "../assets/img/img-react.png";
 import imgPhp from "../assets/img/img-php.png";
-import imgSymfony from "../assets/img/img-symfony.png";
 import imgSql from "../assets/img/img-mysql.png";
 import imgGit from "../assets/img/img-git.png";
 import imgCv from "../assets/img/cv_nicolas_torres_dev.pdf";
@@ -81,23 +79,14 @@ const Skill = () => {
           <h2 id="skillTitle">Mes compétences</h2>
           <div className="skill-hr"></div>
           <div className="img-skill" id="skillImg" ref={imgRef}>
-
-              
-          <img src={imgHtml} alt="logo du html" className="img" id="img1" />
+            <img src={imgHtml} alt="logo du html" className="img" id="img1" />
             <img src={imgCSS} alt="logo du css" className="img" id="img2" />
             <img src={imgSass} alt="logo de sass" className="img" id="img3" />
             <img src={imgJs} alt="logo du js" className="img" id="img4" />
             <img src={imgReact} alt="logo de react" className="img" id="img5" />
             <img src={imgPhp} alt="logo de php" className="img" id="img6" />
-            <img
-              src={imgSymfony}
-              alt="logo de symfony"
-              className="img"
-              id="img7"
-            />
             <img src={imgSql} alt="logo de mysql" className="img" id="img8" />
             <img src={imgGit} alt="logo de Github" className="img" id="img9" />
-
           </div>
           <div className="container-btn" id="btnCv">
             <a href={imgCv} download>
