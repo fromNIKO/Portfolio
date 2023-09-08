@@ -6,8 +6,6 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import logoHead from "../assets/img/logo-head.png";
 import vid from "../assets/img/vid-logo.mp4";
-import { NavLink } from "react-router-dom";
-import { Element } from "react-scroll";
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
