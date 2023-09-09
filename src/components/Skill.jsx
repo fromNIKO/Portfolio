@@ -62,10 +62,6 @@ const Skill = () => {
   }, []);
 
   useEffect(() => {
-    slideInLeft("#img7", "3.4");
-  }, []);
-
-  useEffect(() => {
     slideInLeft("#img8", "3.8");
   }, []);
   useEffect(() => {

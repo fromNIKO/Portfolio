@@ -34,7 +34,7 @@ const Project = () => {
   };
 
   useEffect(() => {
-    slideInTop("#box");
+    slideInTop(".box");
   }, []);
 
   return (
@@ -56,7 +56,7 @@ const Project = () => {
               href="https://first-training-react.netlify.app/"
               target="_blank"
               rel="noreferrer"
-              id="box"
+              className="box"
             >
               <div className="box" id="project7">
                 <figure>
@@ -82,7 +82,7 @@ const Project = () => {
               href="https://bugatti-training-non-office.netlify.app/"
               target="_blank"
               rel="noreferrer"
-              id="box"
+              className="box"
             >
               <div className="box" id="project6">
                 <figure>
@@ -105,7 +105,7 @@ const Project = () => {
               href="https://the-resto-train-by-niko.netlify.app/"
               target="_blank"
               rel="noreferrer"
-              id="box"
+              className="box"
             >
               <div className="box" id="project5">
                 <figure>
@@ -128,7 +128,7 @@ const Project = () => {
               href="https://site-montagne-niko.netlify.app/"
               target="_blank"
               rel="noreferrer"
-              id="box"
+              className="box"
             >
               <div className="box" id="project4">
                 <figure>
@@ -151,7 +151,7 @@ const Project = () => {
               href="https://run-exercice.netlify.app//"
               target="_blank"
               rel="noreferrer"
-              id="box"
+              className="box"
             >
               <div className="box" id="project3">
                 <figure>
@@ -174,7 +174,7 @@ const Project = () => {
               href="https://gaming-campus-training.netlify.app/"
               target="_blank"
               rel="noreferrer"
-              id="box"
+              className="box"
             >
               <div className="box" id="project2">
                 <figure>
@@ -200,7 +200,7 @@ const Project = () => {
               href="https://first-site-japan.netlify.app/"
               target="_blank"
               rel="noreferrer"
-              id="box"
+              className="box"
             >
               <div className="box" id="project1">
                 <figure>

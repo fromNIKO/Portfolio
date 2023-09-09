@@ -197,13 +197,13 @@ const Header = () => {
                 </a>
               </ul>
             </div>
-            <a href="">
+            <a href="#up">
               <img src={logoHead} alt="logo du site" className="logo-header" />
             </a>
 
             <div className="nav-flex">
               <div>
-                <a href="" className="a-header-logo-max">
+                <a href="#up" className="a-header-logo-max">
                   <img src={logoHead} alt="logo du site" />
                 </a>
               </div>
